@@ -1,1 +1,10 @@
+tensorflow
+numpy
+matplotlib
+opencv-python
+scikit-learn
+scipy
+pillow
+albumentations
+
 git+https://TOKEN_PLACEHOLDER@github.com/Pfeffabeissa/medilens-utils.git
