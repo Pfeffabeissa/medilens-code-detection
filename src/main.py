@@ -1,14 +1,16 @@
 from medilens_utils.general import BoundingBox, Image, Point, Ellipse
 from medilens_utils import APIClient
+from dotenv import load_dotenv
 import os
 import shutil
+load_dotenv()
 if os.path.exists("results"):
     shutil.rmtree("results")
     
 img = Image("data/cad/some_pixels/01.png")
 img = Image("data/0_jpg.rf.3b701d12729b82b2c90b71e563b170d1.jpg")
 
-api_client = APIClient("https://medilens.deife.tech")
+api_client = APIClient("http://medilens.deife.tech", os.getenv("API_KEY"))
 detections = api_client.get_pill(img)
 
 for i, (nw, se) in enumerate(detections):

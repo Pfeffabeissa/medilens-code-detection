@@ -2,5 +2,6 @@ torch
 torchvision
 pillow
 numpy
+dotenv
 
 git+https://TOKEN_PLACEHOLDER@github.com/Pfeffabeissa/medilens-utils.git
