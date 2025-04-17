@@ -4577,61 +4577,251 @@
         "IMG_2091.jpeg3346073": {
             "filename": "IMG_2091.jpeg",
             "size": 3346073,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            1139,
+                            1353,
+                            1621,
+                            1417
+                        ],
+                        "all_points_y": [
+                            1921,
+                            2179,
+                            1992,
+                            1748
+                        ]
+                    },
+                    "region_attributes": {}
+                }
+            ],
             "file_attributes": {}
         },
         "IMG_2092.jpeg2777269": {
             "filename": "IMG_2092.jpeg",
             "size": 2777269,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            1449,
+                            1666,
+                            1886,
+                            1676
+                        ],
+                        "all_points_y": [
+                            2235,
+                            2488,
+                            2323,
+                            2084
+                        ]
+                    },
+                    "region_attributes": {}
+                }
+            ],
             "file_attributes": {}
         },
         "IMG_2093.jpeg2772635": {
             "filename": "IMG_2093.jpeg",
             "size": 2772635,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            1068,
+                            1245,
+                            1569,
+                            1365
+                        ],
+                        "all_points_y": [
+                            2113,
+                            2371,
+                            2166,
+                            1923
+                        ]
+                    },
+                    "region_attributes": {}
+                }
+            ],
             "file_attributes": {}
         },
         "IMG_2094.jpeg3121364": {
             "filename": "IMG_2094.jpeg",
             "size": 3121364,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            866,
+                            998,
+                            1301,
+                            1148
+                        ],
+                        "all_points_y": [
+                            1742,
+                            2012,
+                            1797,
+                            1534
+                        ]
+                    },
+                    "region_attributes": {}
+                }
+            ],
             "file_attributes": {}
         },
         "IMG_2095.jpeg2611046": {
             "filename": "IMG_2095.jpeg",
             "size": 2611046,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            853,
+                            1099,
+                            1305,
+                            1088
+                        ],
+                        "all_points_y": [
+                            1692,
+                            1993,
+                            1833,
+                            1554
+                        ]
+                    },
+                    "region_attributes": {}
+                }
+            ],
             "file_attributes": {}
         },
         "IMG_2096.jpeg2750429": {
             "filename": "IMG_2096.jpeg",
             "size": 2750429,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            1231,
+                            1468,
+                            1688,
+                            1472
+                        ],
+                        "all_points_y": [
+                            2568,
+                            2884,
+                            2620,
+                            2331
+                        ]
+                    },
+                    "region_attributes": {}
+                }
+            ],
             "file_attributes": {}
         },
         "IMG_2097.jpeg3065627": {
             "filename": "IMG_2097.jpeg",
             "size": 3065627,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            1426,
+                            1727,
+                            1909,
+                            1628
+                        ],
+                        "all_points_y": [
+                            2447,
+                            2653,
+                            2428,
+                            2243
+                        ]
+                    },
+                    "region_attributes": {}
+                }
+            ],
             "file_attributes": {}
         },
         "IMG_2098.jpeg3346629": {
             "filename": "IMG_2098.jpeg",
             "size": 3346629,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            1206,
+                            1468,
+                            1740,
+                            1478
+                        ],
+                        "all_points_y": [
+                            2257,
+                            2533,
+                            2270,
+                            1989
+                        ]
+                    },
+                    "region_attributes": {}
+                }
+            ],
             "file_attributes": {}
         },
         "IMG_2099.jpeg2658449": {
             "filename": "IMG_2099.jpeg",
             "size": 2658449,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            1158,
+                            1257,
+                            1573,
+                            1459
+                        ],
+                        "all_points_y": [
+                            1971,
+                            2199,
+                            2119,
+                            1907
+                        ]
+                    },
+                    "region_attributes": {}
+                }
+            ],
             "file_attributes": {}
         },
         "IMG_2100.jpeg3501977": {
             "filename": "IMG_2100.jpeg",
             "size": 3501977,
-            "regions": [],
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            932,
+                            975,
+                            1317,
+                            1262
+                        ],
+                        "all_points_y": [
+                            2408,
+                            2779,
+                            2704,
+                            2315
+                        ]
+                    },
+                    "region_attributes": {}
+                }
+            ],
             "file_attributes": {}
         },
         "IMG_2101.jpeg2960408": {
