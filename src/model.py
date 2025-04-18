@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
-import torch.optim as optim
+
+from utils import order_coords_counter_clockwise
 
 class TransformedSquareDetectionCNN(nn.Module):
     def __init__(self):
@@ -24,20 +25,19 @@ class TransformedSquareDetectionCNN(nn.Module):
         
         # Reshape to (4, 2) for easier manipulation of coordinates
         x = x.view(-1, 4, 2)
+
+        # Handle batched ordering in the model, not in the utility function
+        batch_size = x.shape[0]
+        ordered_batch = []
         
-        # Optional: apply geometric constraints (e.g., sorting points)
-        x = self.enforce_quadrilateral_constraints(x)
+        # Process each sample in the batch
+        for i in range(batch_size):
+            sample = x[i]  # Extract single sample with shape [4, 2]
+            ordered_sample = order_coords_counter_clockwise(sample)  # Order single sample
+            ordered_batch.append(ordered_sample)
+        
+        # Stack back into batch
+        x = torch.stack(ordered_batch)
         
         return x
     
-    def enforce_quadrilateral_constraints(self, coords):
-        """
-        Apply constraints to maintain the validity of the quadrilateral.
-        E.g., sorting points to maintain consistent order (top-left, top-right, bottom-right, bottom-left).
-        """
-        # Example: Sort points by y-coordinate, then by x if needed
-        coords = coords[coords[:, 1].argsort()]  # Sort by y
-        if coords[1, 0] > coords[2, 0]:  # Sort x if middle points are swapped
-            coords[[1, 2]] = coords[[2, 1]]
-        return coords
-
